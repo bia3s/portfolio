@@ -22,7 +22,7 @@ body{
 }
 
 main {
-    height: calc(100vh - 280px)
+    height: 100vh;
 }
 
 .cabecalho{
@@ -52,9 +52,10 @@ span{
     padding: 10px;
 }
 .imagem__home{
+    margin: 0 auto;
     height: 400px;
-    width: 400px;
-    
+    max-width: 400px;
+    padding: 2.5rem 0;
 }
 
 .imagem__home img {
@@ -62,10 +63,11 @@ span{
     border-radius: 2%;
 }
     .apresentacao {
+        margin: 0 auto;
         max-width: 1068px;
         padding: 5% 15%;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
         gap: 82px;
     }
@@ -75,8 +77,10 @@ span{
     }
 
     .apresentacao__conteudo {
+        height: 100%;
         width: 50%;
         display: flex;
+        justify-content: space-evenly;
         flex-direction: column;
         gap: 40px;
     }
