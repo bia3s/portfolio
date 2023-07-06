@@ -89,6 +89,11 @@ body{
 
 }
 
+.apresnetacao__imagem-container {
+    display: flex;
+    justify-content: center;
+}
+
 .apresentacao__links__link:hover{
     background-color: var(--cor-terciaria);
 }
