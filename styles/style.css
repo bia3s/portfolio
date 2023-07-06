@@ -98,11 +98,12 @@ body{
     background-color: var(--cor-terciaria);
 }
 
+.apresnetacao__imagem-container {
+    width: 500px;
+}
+
 .apresentacao__imagem{
-     width: 50%;
-
-
-
+     width: 100%;
 }
 .rodape{
     color: var(--cor-primaria);
