@@ -128,6 +128,10 @@ body{
         padding: 5%;
     }
 
+    .apresnetacao__imagem-container {
+        width: 250px;
+    }
+
     .apresentacao__conteudo{
         width:auto;
     }
