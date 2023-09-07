@@ -45,7 +45,7 @@
 }
 
 .projeto-ux__titulo h2 {
-    top: 15px;
+    top: 20px;
     left:30px;
     font-size: 24px;
     font-weight: bold;
@@ -61,13 +61,15 @@
 .projeto-ux__desafio,
 .projeto-ux__solucao,
 .projeto-ux__entregaveis,
-.projeto-ux__lista,
 .projeto-ux__texto,
 .projeto-ux__heading-tres {
-    font-size: 10px;
     line-height: 1.2em;
     padding: 1em;
     text-align: justify;
+}
+
+.projeto-ux__lista li {
+    margin-bottom: 0.5rem;
 }
 
 .projeto-ux__heading-tres h3 {
@@ -93,6 +95,7 @@
 }
 
 .projeto-ux__lista{
+    padding: 0.5rem;
     list-style: inside;
 }
 

@@ -24,18 +24,12 @@
  }
 
  .projeto-ux__info-pecas {
-    margin: 1em;
-    padding: 2em;
- }
-
- .projeto-ux__info-pecas strong {
-    font-size: 32px;
  }
 
  .titulo_ferramentasusadas {
     padding: 2em;
-    top: -45px;
-    left: -30px;
+    top: -25px;
+    left: -20px;
     position: absolute;
  }
 
@@ -45,7 +39,8 @@
  .titulo_manualmarca {
     color: #000000;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 24px;
+    text-align: left;
  }
 
  .design-grafico__posts-img {
@@ -55,14 +50,16 @@
     justify-content: center;
  }
 
+ .design-grafico__posts-img img {
+    width: 300px;
+ }
+
 .design-grafico__infografico {
-    padding: 2em;
 }
 
 .design-grafico__infografico-titulo h2,
 .design-grafico__manual-titulo h2 {
-    padding: 2em;
-    font-size: 32px;
+    padding: 2em 1em;
     font-weight: bold;
 }
 

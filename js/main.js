@@ -15,8 +15,6 @@ let arrayLinksPortfolio = [
 
 const idiomaPagina = [];
 
-console.log(idiomaPagina)
-
 const elementosPaginaPrincipal = [
     document.querySelector('.home'),
     document.querySelector('.portfolio'),
@@ -46,6 +44,7 @@ const elementosPortfolio = [
     document.querySelector('.portfolio'),
     document.querySelector('.sobre'),
     document.querySelector('.contato'),
+    document.querySelector('.banner__uxdesign'),
     document.querySelector('.portfolio_projetoux_titulo'),
     document.querySelector('.portfolio_desafio_strong'),
     document.querySelector('.portfolio_desafio_paragrafo'),
@@ -131,8 +130,6 @@ const elementosPaginaContato = [
 
 const menuPaginas = document.querySelector('.portfolio__paginas');
 
-console.log(elementosSobreMim)
-
 const menuPaginasLinksContainer = document.querySelectorAll('.paginas__lista-item');
 
 const portfolio = document.querySelector('.lista-menu_portfolio');
@@ -160,9 +157,9 @@ const apresentaLinksPortfolio = () => {
 
 const subirInicioPagina = () => {
 
-    botaoInicioPagina.addEventListener('click', () => {
+    botaoInicioPagina === null? '': botaoInicioPagina.addEventListener('click', () => {
 
-
+ 
         window.scrollTo({
             top: -6000,
             behavior: 'smooth',
@@ -199,9 +196,6 @@ const apresentaMenuPortfolioPaginas = () => {
     });
 
 }
-
-console.log(elementosDesignGrafico)
-
 
 const btnMobile = document.querySelectorAll('.botao_mobile');
 

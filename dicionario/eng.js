@@ -40,6 +40,7 @@ export const textoIngles = {
             conteudo_btn: 'Portfolio',
     },
     conteudo_portfolio: {
+        banner__uxdesign: 'UX/UI Design',
         portfolio_projetoux_titulo: 'Case Study: My Buddy',
         portfolio_desafio_strong: 'Challenge:',
         portfolio_desafio_paragrafo: 'creating a digital solution to assist in the adoption of rescued animals by NGOs.',
