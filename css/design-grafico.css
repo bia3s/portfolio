@@ -1,0 +1,156 @@
+.design-grafico{
+    padding:2em 0.5em;
+    
+}
+
+.design-grafico strong {
+    list-style: bold
+}
+
+.design-grafico__titulo{
+    position: relative;
+    
+}
+
+.design-grafico__posts{
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+ }
+
+ .projeto-ux__titulo {
+    position: relative;
+ }
+
+ .projeto-ux__info-pecas {
+    margin: 1em;
+    padding: 2em;
+ }
+
+ .projeto-ux__info-pecas strong {
+    font-size: 32px;
+ }
+
+ .titulo_ferramentasusadas {
+    padding: 2em;
+    top: -45px;
+    left: -30px;
+    position: absolute;
+ }
+
+ .titulo_ferramentasusadas,
+ .titulo_pecasredessociais,
+ .titulo_infograficos,
+ .titulo_manualmarca {
+    color: #000000;
+    font-weight: bold;
+    font-size: 32px;
+ }
+
+ .design-grafico__posts-img {
+    gap: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+.design-grafico__infografico {
+    padding: 2em;
+}
+
+.design-grafico__infografico-titulo h2,
+.design-grafico__manual-titulo h2 {
+    padding: 2em;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.design-grafico__infografico-img {
+    display: flex;
+    justify-content: center;
+}
+
+.design-grafico__manual-img {
+    display: flex;
+    justify-content: center;
+}
+
+.design-grafico__manual-img img {
+    max-width: 100%;
+}
+
+
+ .rodape{
+    background-color: var(--preto);
+  
+}
+
+
+.rodape__email{
+    gap: 0.8em;
+    display: flex;
+    align-items: center;
+    color: var(--cinza-claro);
+    font-size: 12px;
+    padding: 1.6em 1.6em;
+    
+}
+
+.rodape__linkedin{
+    display: flex;
+    gap: 0.8em;
+    align-items: center;
+    color: var(--cinza-claro);
+    font-size: 12px;
+    padding: 0 1.5em;
+}
+
+.design-grafico__texto {
+    gap: 2em;
+    display: flex;
+    margin: 0.2em 0 5em 5em;
+}
+
+.design-grafico__texto img {
+    width: 60px;
+}
+.rodape__github{
+    display: flex;
+    gap: 0.8em;
+    align-items: center;
+    color: var(--cinza-claro);
+    font-size: 12px;
+    padding: 1.6em;
+}
+
+.botao_subir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+    right: 30px;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--roxo-principal);
+}
+
+.rodape__frase-final {
+    padding: 1rem;
+    color: var(--cinza-claro);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:760px) {
+
+    .botao_subir {
+        display: none;
+    }
+
+}
+

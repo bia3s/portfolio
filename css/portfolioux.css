@@ -1,0 +1,222 @@
+
+
+.portfolio {
+    cursor: pointer;
+}
+
+.botao_subir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+    right: 40px;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--roxo-principal);
+}
+
+.cachorro {
+    width: 150px;
+    display: flex;
+}
+
+.cachorro img {
+    width: 150px;
+}
+
+.pets {
+    display: none;
+}
+
+.projeto-ux{
+    padding:2em 0.5em;
+   
+}
+
+.projeto-ux strong{
+    font-weight: bold;
+}
+
+.projeto-ux__titulo{
+    position: relative;
+    
+}
+
+.projeto-ux__titulo h2 {
+    top: 15px;
+    left:30px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.projeto-ux__titulo img {
+    height: 75px;
+    width: 75px;
+}
+    
+.projeto-ux__desafio,
+.projeto-ux__solucao,
+.projeto-ux__entregaveis,
+.projeto-ux__lista,
+.projeto-ux__texto,
+.projeto-ux__heading-tres {
+    font-size: 10px;
+    line-height: 1.2em;
+    padding: 1em;
+    text-align: justify;
+}
+
+.projeto-ux__heading-tres h3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projeto-ux__heading-tres span {
+    padding: 0.5em;
+}
+
+.projeto-ux__heading-spanmobile {
+    border-bottom: 3px solid var(--roxo-principal);
+}
+
+.projeto-ux__figma-mobile img:nth-child(2) {
+    margin: 2em;
+}
+
+.img_desktop {
+    max-width: 100%;
+}
+
+.projeto-ux__lista{
+    list-style: inside;
+}
+
+
+.projeto-ux__botao{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.projeto-ux__botao a{
+    width: 330px;
+    padding: 1rem;
+    text-align: center;
+    color: var(--cinza-claro);
+    background-color: var(--roxo-principal);
+    border-radius: 0.5em;
+    text-decoration: none;
+}
+
+.projeto-ux__container {
+    display: flex; 
+    width: 100%;
+    justify-content: space-between;
+}
+
+.projeto-ux__figma-mobile{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 0.5em;
+   padding: 2em 0;
+   justify-content: center;
+}
+
+.projeto-ux__botao{
+    display: flex;
+    padding: 0.5rem;
+    justify-content:flex-start;
+    margin-bottom: 1em;
+    gap: 2em;
+}
+
+.projeto-ux__botao p{
+    width: 340px;
+    padding: 1rem;
+    text-align:center;
+    color: var(--cinza-claro);
+    background-color: var(--roxo-principal);
+    border-radius: 0.5em;
+}
+
+.projeto-ux__botao {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:450px) {
+    .projeto-ux__heading-spanmobile {
+        border-bottom: none;
+    }
+
+    .projeto-ux__heading-spanweb {
+        border-bottom: 3px solid var(--roxo-principal);
+    }
+}
+
+@media screen and (min-width:760px) {
+    .projeto-ux {
+        max-width: 1168px;
+        margin: 0 auto;
+    }
+
+    .botao_subir {
+        display: none;
+    }
+
+    .cachorro {
+        display: none;
+    }
+
+    .pets {
+        width: 500px;
+        display: block;
+    }
+
+    .pets img, .cachorroimg {
+        width: 100%;
+    }
+
+    .projeto-ux__container ul {
+        width: 300px;
+    }
+
+    .projeto-ux__titulo h2 {
+        font-size: 32px;
+    }
+
+    .projeto-ux__desafio strong,
+    .projeto-ux__desafio p,
+    .projeto-ux__solucao strong,
+    .projeto-ux__solucao p,
+    .projeto-ux__entregaveis strong,
+    .projeto-ux__entregaveis p,
+    .projeto-ux__lista li,
+    .portfolio_agendamento_textoprincipal,
+    .projeto-ux__heading-tres h3 {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .projeto-ux__container {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .projeto-ux__lista,
+    .projeto-ux__mockup {
+        margin: 0 1em;
+    }
+
+    .projeto-ux__lista {
+        width: 100%;
+    }
+
+
+}

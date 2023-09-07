@@ -1,0 +1,169 @@
+
+
+
+.banner__titulo-sobre{
+    text-align: center;
+    color: var(--cinza-claro);
+    padding: 1em;
+}
+
+.sobre_mim{
+    font-size: 32px;
+}
+
+.banner__container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner__linha-sobre{
+    border-bottom: 2px solid var(--roxo-principal);
+    width: 300px; 
+}
+.banner__foto{
+    padding: 3em;
+    height: 300px;
+    width: 300px;
+}    
+
+
+.formacao{
+    padding: 2em;
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+
+.formacao__titulo{
+    position: relative;
+}
+
+.formacao__titulo h2 {
+    color: #000000;
+    top: 0px;
+    left: 0px;
+    font-size: 23px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.formacao__conteudo{
+    color: #000000;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.formacao_conteudo_texto {
+    text-align: left;
+    color: #000000;
+}
+
+.formacao_interesses_texto {
+    color: #000000;
+}
+
+.formacao__interesses p {
+    color: #000000;
+}
+
+.formacao__interesses__series-legenda p,
+.formacao__interesses__praia-legenda p,
+.formacao__interesses__harry-potter-legenda p,
+.formacao__interesses__leitura-legenda p,
+.formacao__interesses__viagens-legenda p,
+.formacao__interesses__pets-legenda p,
+
+.formacao__interesses__series-img,
+.formacao__interesses__praia-img,
+.formacao__interesses__harry-potter-img,
+.formacao__interesses__leitura-img,
+.formacao__interesses__viagens-img,
+.formacao__interesses__pets-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.formacao__interesses__titulo{
+    padding: 1em 0;
+}
+
+
+.formacao__interesses{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+
+}
+
+.formacao__titulo img {
+    width: 75px;
+}
+
+.formacao__interesses__titulo h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.formacao__interesses__botao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}  
+
+.formacao__interesses__botao a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--cinza-claro);
+    background-color: var(--roxo-principal);
+    border-radius: 0.5em;
+}
+
+.botao_subir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+    right: 60px;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--roxo-principal);
+}
+
+
+@media screen and (min-width:760px) {
+
+    .formacao{
+        padding: 3em;
+        max-width: 1168px;
+        margin: 0 auto;
+    }
+
+    .banner__linha-sobre {
+        margin: 2rem;
+    }
+
+    .botao_subir {
+        display: none;
+    }
+
+    .formacao__conteudo{
+        padding: 2rem;
+    }
+
+    .banner__foto{
+        padding: 1em;
+    } 
+
+    .formacao__titulo h2,
+    .formacao__interesses__titulo h2 {
+        font-size: 32px;
+    }
+}

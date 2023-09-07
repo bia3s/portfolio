@@ -1,0 +1,54 @@
+.banner__titulo-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao_subir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+    right: 30px;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--roxo-principal);
+}
+
+.banner__titulo {
+    font-size: 50px;
+}
+
+.banner__linha {
+    width: 100%;
+}
+
+.contato__info img {
+    max-width: 100%;
+}
+
+@media screen and (min-width:360px) {
+
+    .contato__width {
+        padding: 3em;
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width:760px) {
+
+    .botao_subir {
+        display: none;
+    }
+
+    .contato__width {
+        padding: 3em;
+        width: 768px;
+    }
+
+}

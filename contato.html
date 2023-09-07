@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/portfolioux.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Beatriz Sobreira</title>
+</head>
+<body class="PaginaContato">
+    <header class="BarraDeNavegacao">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="BarraDeNavegacao__menu container__imagem"> </span> 
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item link-ativo">
+                    <a href="./index.html" class="lista-menu__link navbar home"></a>
+                </li>
+                <li class="lista-menu__item lista-menu_portfolio">
+                    <div class="lista-menu__link navbar portfolio"></div>
+                    <div class="portfolio__paginas">
+                        <ul class="portfolio__paginas-lista">
+                            <li class="paginas__lista-item uxdesign">
+                                <a class="portfolio__paginas navbarportfolio linkuxdesign" href="./portfolio_ux.html"></a>
+                            </li>
+                            <li class="paginas__lista-item designgrafico">
+                                <a class="portfolio__paginas navbarportfolio linkdesigngrafico" href="./design-grafico.html"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="./sobre.html" class="lista-menu__link navbar sobre"></a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="./contato.html" class="lista-menu__link navbar contato"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/beatriz-sobreira-3s"><img src="./assets/linkedin.svg" alt="ícone do linkedin" class="container__imagem"></a>
+            <a href="#"><img src="./assets/brasil 1.svg" alt="bandeira do brasil" class="container__imagem br"></a>
+            <a href="#"><img src="./assets/uk 1.svg" alt="bandeira do reino unido" class="container__imagem uk"></a>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__container contato__width">
+                <div class="banner__titulo-container">
+                    <div class="banner__linha">
+                        <h1 class="banner__titulo conteudo_contato banner_titulo_contato"> Contato </h1>
+                    </div>
+                </div>
+                <div class="contato__info">
+                    <img src="./assets/caixa_contato.svg" alt=" contaos da beatriz sobreira">
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            <div class="rodape__contato">
+                <a class="rodape__email" href="mailto:beatrizssobreira@gmail.com?subject=Contato&body=Gostaria de contato para negociação">
+                        <img src="./assets/email.svg" alt="ícone de e-mail">
+                         <p class="rodape_paragrafo rodape rodape_email"></p>
+                </a>
+                 <a class="rodape__linkedin" href="https://www.linkedin.com/in/beatriz-sobreira-3s">
+                        <img src="./assets/linkedin.svg" alt="ícone do linkedin">
+                         <p class="rodape_paragrafo rodape rodape_linkedin"></p>
+                 </a>
+                 <a class="rodape__github" href="https://github.com/bia3s">
+                        <img src="./assets/github.svg" alt="ícone do github">
+                         <p class="rodape_paragrafo rodape rodape_github"></p>
+                 </a>
+            </div>
+            <div class="rodape__frase-final">
+                <p class="rodape_paragrafo rodape rodape_frase"></p>
+                <p class="rodape_paragrafo rodape rodape_ano"></p>
+            </div>
+        </footer>
+    </main>
+</body>
+<script type="module" src="./js/main.js"></script>
+</html>

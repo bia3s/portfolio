@@ -1,0 +1,13 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" fill="#F5F5F5"/>
+<g id="sobre" clip-path="url(#clip0_0_1)">
+<rect width="360" height="1614" transform="translate(-255 -532)" fill="white"/>
+<rect id="section1" x="-256" y="-66" width="360" height="400" fill="white"/>
+<circle id="foto" cx="20" cy="20" r="20" fill="#CAB2D2"/>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="360" height="1614" fill="white" transform="translate(-255 -532)"/>
+</clipPath>
+</defs>
+</svg>
