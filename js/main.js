@@ -45,6 +45,14 @@ const elementosPortfolio = [
     document.querySelector('.sobre'),
     document.querySelector('.contato'),
     document.querySelector('.banner__uxdesign'),
+    document.querySelector('.portfolio_landingpage_titulo'),
+    document.querySelector('.portfolio_landingpage_texto01'),
+    document.querySelector('.portfolio_landingpage_texto02'),
+    document.querySelector('.portfolio_landingpage_texto03'),
+    document.querySelector('.portfolio_emailmarketing_texto01'),
+    document.querySelector('.portfolio_emailmarketing_texto02'),
+    document.querySelector('.portfolio_emailmarketing_texto03'),
+    document.querySelector('.portfolio_emailmarketing_titulo'),
     document.querySelector('.portfolio_projetoux_titulo'),
     document.querySelector('.portfolio_desafio_strong'),
     document.querySelector('.portfolio_desafio_paragrafo'),
@@ -57,6 +65,7 @@ const elementosPortfolio = [
     document.querySelector('.voz'),
     document.querySelector('.navegavel'),
     document.querySelector('.botao_mybuddy'),
+    document.querySelector('.portfolio_interfacemobileapp_titulo'),
     document.querySelector('.portfolio_agendamento_textoprincipal'),
     document.querySelector('.texto_agendamento_primeiro'),
     document.querySelector('.texto_agendamento_segundo'),
@@ -199,6 +208,10 @@ const apresentaMenuPortfolioPaginas = () => {
 
 const btnMobile = document.querySelectorAll('.botao_mobile');
 
+sessionStorage.setItem('idioma', JSON.stringify(textoPortugues));
+
+const carregaIdioma = JSON.parse(sessionStorage.getItem('idioma'));
+
 const selecionaIdioma = () => {
 
     for(let i = 0; i < botoesTraducao.length; i++) {
@@ -225,6 +238,10 @@ const selecionaIdioma = () => {
 }
 
 const traducaoElementos = (idioma) => {
+
+    sessionStorage.setItem('idioma', JSON.stringify(idioma));
+
+    const sessaoIdioma = JSON.parse(sessionStorage.getItem('idioma'));
 
     let arrayBtn = [];
     let arrayElementos = [];
@@ -258,7 +275,7 @@ const traducaoElementos = (idioma) => {
         let chave = item.classList[1];
         let classe = item.classList[2];
 
-        item.textContent = idioma[chave][classe];
+        item.textContent = sessaoIdioma[chave][classe];
 
     });
 
@@ -267,7 +284,7 @@ const traducaoElementos = (idioma) => {
         let chave = item.classList[1];
         let classe = item.classList[2];
 
-        item.textContent = idioma[chave][classe];
+        item.textContent = sessaoIdioma[chave][classe];
 
     });
 
@@ -302,6 +319,6 @@ const redirecionaPaginasPortfolio = () => {
     apresentaLinksPortfolio();
     subirInicioPagina();
     apresentaMenuPortfolioPaginas();
-    traducaoElementos(textoPortugues);
+    traducaoElementos(carregaIdioma);
     redirecionaPaginasPortfolio();
 })();   

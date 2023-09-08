@@ -46,6 +46,35 @@ export const textoPortugues = {
     },
     conteudo_portfolio: {
         banner__uxdesign: 'UX/UI Design',
+        portfolio_landingpage_titulo: 'Landing Page: Sumup + PIX',
+        portfolio_landingpage_texto01: `
+        Criação de uma Landing Page para divulgar a parceria da SumUp e Pix. 
+        Segui o briefing e os manuais de marca fornecidos pelo curso.
+        `,
+        portfolio_landingpage_texto02: `
+        Ao estudar o manual de marca da SumUp, percebi que ela possui um estilo bem minimalista. 
+        Por isso, optei por usar apenas as cores principais da marca e priorizar um fundo branco. 
+        Pude escolher outra fonte para esse projeto, portanto, escolhi uma fonte sem serifa já que 
+        a fonte original da SumUp também é dessa forma.
+        `,
+        portfolio_landingpage_texto03: `
+        Procurei padronizar os tamanhos de fonte, assim como os espaçamentos ao longo da página.
+        Antes do resultado final, construí um moodboard e produzi wireframes de baixa e média fidelidade.
+        `,
+        portfolio_emailmarketing_titulo: 'E-mail Marketing: Sumup + PIX',
+        portfolio_emailmarketing_texto01: `
+        E-mail para divulgação da parceria entre a SumUp e Pix.
+        `,
+        portfolio_emailmarketing_texto02: `
+        Montei esse e-mail considerando possíveis problemas de carregamento, 
+        além de considerar como manter o leitor engajado até o final.
+        `,
+        portfolio_emailmarketing_texto03: `
+        Portanto, não usei imagens com texto montados no Photoshop para não correr o risco das mesmas não carregarem.
+         Dessa forma, o e-mail não poderia ser lido. Também não incluí muitas imagens para evitar que o e-mail fosse 
+         direcionado para a caixa de spam. Procurei desenhar um layout simples para codificar em HTML e priorizei as 
+         organizei as informações hierarquicamente, utilizando tamanhos e pesos de fonte distintos.
+        `,
         portfolio_projetoux_titulo: 'Estudo de caso: My Buddy',
         portfolio_desafio_strong: 'Desafio:',
         portfolio_desafio_paragrafo: 'criar uma solução digital para auxiliar na adoção de animais resgatados por ONGs.',
@@ -62,6 +91,7 @@ export const textoPortugues = {
         voz: 'Quadro de voz',
         navegavel: 'Protótipo navegável',
         botao_mybuddy: 'Acesse os detalhes',
+        portfolio_interfacemobileapp_titulo: 'Interfaces para mobile e web',
         botao_mobile: 'Acesse o Figma',
         portfolio_agendamento_textoprincipal: `
         Ao criar minhas interfaces, sempre aplico as 10 heurísticas de Nielsen. 

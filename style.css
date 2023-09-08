@@ -40,7 +40,7 @@ body{
 .portfolio__paginas {
     font-size: 15.2px;
     top: -15px;
-    left: 143px;
+    left: 100%;
     margin-top: 1rem;
     cursor: pointer;
     display: none;

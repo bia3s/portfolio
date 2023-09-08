@@ -41,6 +41,34 @@ export const textoIngles = {
     },
     conteudo_portfolio: {
         banner__uxdesign: 'UX/UI Design',
+        portfolio_landingpage_titulo: 'Landing Page: Sumup + PIX',
+        portfolio_landingpage_texto01: `
+        This is a Landing Page to announce SumUp and Pix partnership. 
+        There was a briefing to be followed as well as both identities' guidelines to be used as references.
+        `,
+        portfolio_landingpage_texto02: `
+        As I was studying SumUp guidelines I noticed that it had a minimalist style. Thus, 
+        I chose to use only the main colours of the brand and also chose white to be the background colour. 
+        As far as the typography is concerned, I chose a sans serif font since it was closer to the original font used by SumUp.
+        `,
+        portfolio_landingpage_texto03: `
+        I had also created a moodboard for references and had drawn low and medium fidelity wireframes before creating the final version.
+        `,
+        portfolio_emailmarketing_titulo: 'E-mail Marketing: Sumup + PIX',
+        portfolio_emailmarketing_texto01: `
+        This is an e-mail to announce SumUp and Pix partnership.
+        `,
+        portfolio_emailmarketing_texto02: `
+        I've made this e-mail considering loading issues and also having in 
+        mind that I want to hold the reader's attention throughtout the message.
+        `,
+        portfolio_emailmarketing_texto03: `
+        Therefore, Neither did I choose to make a composition with text 
+        and imagens on Photoshop nor include plenty of photos. This way, 
+        I would be hindering loading issues and the possibility of this email 
+        going to the spam area. I've prioritised a layout that could be easily 
+        coded in HTML and also organized the importante information using different font sizes and font weight.
+        `,
         portfolio_projetoux_titulo: 'Case Study: My Buddy',
         portfolio_desafio_strong: 'Challenge:',
         portfolio_desafio_paragrafo: 'creating a digital solution to assist in the adoption of rescued animals by NGOs.',
@@ -56,6 +84,7 @@ export const textoIngles = {
         voz: 'Voice Charts',
         navegavel: 'Interactive prototype',
         botao_mybuddy: 'Access the details',
+        portfolio_interfacemobileapp_titulo: 'Interfaces for mobile and web',
         botao_mobile: 'Access Figma',
         portfolio_agendamento_textoprincipal: `
         When designing my interfaces, I always apply Nielsen's 10 heuristics law.
