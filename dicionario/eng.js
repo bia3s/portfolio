@@ -112,10 +112,23 @@ export const textoIngles = {
     },
     conteudo_about: {
         sobre_mim: 'About Me',
-        titulo_formacao: 'Formation',
-        formacao_conteudo_texto: 'Graduated in Letters/Literatures from the State University of Rio de Janeiro (UERJ) and post graduated in Pedagogical Neuroscience and Project Management and Agile Methodologies. I speak English fluently and I have a certificate of proficiency level C2 (ECPE - Michigan/Cambridge). I acquired several soft skills and hard skills over my 10 years of experience in the job market. I really appreciate a good working environment and teamwork.',
-        formacao_interesses_texto: 'My Interests',
-        praia: 'Beach',
+        titulo_formacao: 'Education',
+        formacao_conteudo_texto__00: `
+            I've graduated in English/Literature from Universidade 
+            do Estado do Rio de Janeiro (UERJ) and I've got two postgraduate 
+            certificates: one in neuroscience applied to teaching and the other 
+            in project management and agile methodologies.
+        `,
+        formacao_conteudo_texto__01: `
+            I speak English fluently and I'm a CAE and CPE holder.
+        `,
+        formacao_conteudo_texto__02: `
+            I have accumulated plenty of experience throughout these 10 years in the labour market. 
+            Thus, I was able to develop sereral soft and hard skills.
+            I believe that we need a great work environment to be able to work at our best  and I enjoy working in teams.
+        `,
+        formacao_interesses_texto: 'What I Like',
+        praia: 'Going to the beach',
         harry_potter: 'Harry Potter',
         leitura: 'Reading',
         series: 'TV Series',

@@ -120,7 +120,19 @@ export const textoPortugues = {
     conteudo_about: {
         sobre_mim: 'Sobre Mim',
         titulo_formacao: 'Formação',
-        formacao_conteudo_texto: 'Formada em Letras/Literaturas pela Universidade do Estado do Rio de Janeiro (UERJ) e pós graduada em Neurociência Pedagógica e Gestão de Projetos e Metodologias Ágeis. Falo inglês fluentemente e tenho um certificado de proficiência nível C2 (ECPE - Michigan/Cambridge). Adquiri várias soft skills e hard skills ao longo dos meus 10 anos de experiência no mercado de trabalho. Prezo muito por um bom ambiente de trabalho e trabalho em equipe.',
+        formacao_conteudo_texto__00: `
+            Formada em Letras/Literaturas pela Universidade do 
+            Estado do Rio de Janeiro (UERJ) e pós graduada em 
+            Neurociência Pedagógica e Gestão de Projetos e Metodologias Ágeis. 
+            Falo inglês fluentemente e tenho um certificado de proficiência 
+            nível C2 (ECPE - Michigan/Cambridge). Adquiri várias soft skills e 
+            hard skills ao longo dos meus 10 anos de experiência no mercado de trabalho. 
+            Prezo muito por um bom ambiente de trabalho e trabalho em equipe.
+        `,
+        formacao_conteudo_texto__01: `
+        `,
+        formacao_conteudo_texto__02: `
+        `,
         formacao_interesses_texto: 'Meus Interesses',
         praia: 'Praia',
         harry_potter: 'Harry Potter',

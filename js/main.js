@@ -108,7 +108,9 @@ const elementosSobreMim = [
     document.querySelector('.contato'),
     document.querySelector('.sobre_mim'),
     document.querySelector('.titulo_formacao'),
-    document.querySelector('.formacao_conteudo_texto'),
+    document.querySelector('.formacao_conteudo_texto__00'),
+    document.querySelector('.formacao_conteudo_texto__01'),
+    document.querySelector('.formacao_conteudo_texto__02'),
     document.querySelector('.formacao_interesses_texto'),
     document.querySelector('.praia'),
     document.querySelector('.harry_potter'),
@@ -207,8 +209,6 @@ const apresentaMenuPortfolioPaginas = () => {
 }
 
 const btnMobile = document.querySelectorAll('.botao_mobile');
-
-sessionStorage.setItem('idioma', JSON.stringify(textoPortugues));
 
 const carregaIdioma = JSON.parse(sessionStorage.getItem('idioma'));
 

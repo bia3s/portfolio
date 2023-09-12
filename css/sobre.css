@@ -56,7 +56,9 @@
     line-height: 1.5em;
 }
 
-.formacao_conteudo_texto {
+.formacao_conteudo_texto__00,
+.formacao_conteudo_texto__01,
+.formacao_conteudo_texto__02 {
     text-align: left;
     color: #000000;
 }
