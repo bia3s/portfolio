@@ -181,7 +181,6 @@ const subirInicioPagina = () => {
 }
 
 const apresentaMenuPortfolioPaginas = () => {
-    console.log(idiomaPagina)
 
     portfolio.addEventListener('mouseover', ()=> {
 
