@@ -20,6 +20,8 @@ const elementosPaginaPrincipal = [
     document.querySelector('.portfolio'),
     document.querySelector('.sobre'),
     document.querySelector('.contato'),
+    document.querySelector('.linkuxdesign'),
+    document.querySelector('.linkdesigngrafico'),
     document.querySelector('.banneruxdesign'),
     document.querySelector('.bannerwebdesign'),
     document.querySelector('.bannerimpressos'),

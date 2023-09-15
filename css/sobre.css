@@ -1,10 +1,12 @@
-
+.formacao__interesses__botao a {
+    padding: 1em;
+    margin: 1.5rem;
+}
 
 
 .banner__titulo-sobre{
     text-align: center;
     color: var(--cinza-claro);
-    padding: 1em;
 }
 
 .sobre_mim{
@@ -20,6 +22,7 @@
 }
 
 .banner__linha-sobre{
+    padding: 2rem;
     border-bottom: 2px solid var(--roxo-principal);
     width: 300px; 
 }
@@ -38,13 +41,14 @@
 
 
 .formacao__titulo{
+    margin: 0.5rem;
     position: relative;
 }
 
 .formacao__titulo h2 {
     color: #000000;
-    top: 0px;
-    left: 0px;
+    top: 20px;
+    left: 30px;
     font-size: 24px;
     font-weight: bold;
     position: absolute;
@@ -52,6 +56,7 @@
 
 .formacao__conteudo{
     color: #000000;
+    padding: 1rem;
     text-align: justify;
     line-height: 1.5em;
 }
@@ -150,7 +155,8 @@
     }
 
     .formacao__titulo h2 {
-        top: -10px;
+        top: 20px;
+        left: 30px;
     }
 
     .banner__linha-sobre {

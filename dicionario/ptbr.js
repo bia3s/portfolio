@@ -133,14 +133,14 @@ export const textoPortugues = {
         `,
         formacao_conteudo_texto__02: `
         `,
-        formacao_interesses_texto: 'Meus Interesses',
+        formacao_interesses_texto: 'Meus interesses',
         praia: 'Praia',
         harry_potter: 'Harry Potter',
         leitura: 'Leitura',
         series: 'Séries',
         viagem: 'Viajar',
         pets: 'Pets',
-        formacao_interesses_contato: `Vamos Convesar? Drop me a line!`
+        formacao_interesses_contato: `Vamos convesar? Drop me a line!`
     },
     conteudo_contato: {
         banner_titulo_contato: 'Contato'

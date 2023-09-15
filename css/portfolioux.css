@@ -68,6 +68,7 @@
 
 .projeto-ux__ladingpage-conteudo p,
 .projeto-ux__emailmarketing-conteudo p {
+    line-height: 1.6;
     margin-bottom: 2rem;
 }
 
@@ -178,6 +179,7 @@
 }
 
 .projeto-ux__botao{
+    margin: 1rem;
     display: flex;
     padding: 0.5rem;
     justify-content:flex-start;
