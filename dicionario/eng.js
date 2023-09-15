@@ -105,10 +105,10 @@ export const textoIngles = {
     },
     conteudo_designgrafico: {
         titulo_banner: 'Graphic Design and Visual identity',
-        titulo_ferramentasusadas: 'Used Tools',
-        titulo_pecasredessociais: 'Pieces for Social Media',
+        titulo_ferramentasusadas: 'Software',
+        titulo_pecasredessociais: 'Social Media',
         titulo_infograficos: 'Infographics',
-        titulo_manualmarca: 'Branding Manual'
+        titulo_manualmarca: 'Brand Manual'
     },
     conteudo_about: {
         sobre_mim: 'About Me',
